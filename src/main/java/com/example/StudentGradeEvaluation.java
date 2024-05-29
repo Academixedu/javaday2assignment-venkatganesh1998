@@ -19,31 +19,36 @@ public class StudentGradeEvaluation {
         System.out.print("Enter your score: ");
         score=scanner.nextInt();
         // Determine the grade
+        System.out.print("\n\n\nName: "+name+"\nAge: "+age+"\nExamScore: "+score+"\n");
+
         String grade;
         if(score>=90){
-
-        }
-        elseif(score>=80){
-            System.out.print("A ");
+            System.out.print("Grade: A ");
             if(age<25)
-            System.out.print("eligible ");
+            System.out.print("\neligible ");
         }
-        elseif(score>=70){
-            System.out.print("B ");
+        else if(score>=80){
+            System.out.print("Grade B ");
             if(age<25)
-            System.out.print("eligible ");
+            System.out.print("\neligible ");
+        }
+        else if(score>=70){
+         
+            System.out.print("Grade C ");
             
         }
-        elseif(score>=60){
-            System.out.print("C ");
+        else if(score>=60){
+            System.out.print("Grade D ");
         }
-        elseif(score<80){
-            System.out.print("D");
+        else{
+            System.out.print("Grade F");
         }
 
         // Print the student's details
         
 
        
-    }
-}
+    
+
+   
+}}
