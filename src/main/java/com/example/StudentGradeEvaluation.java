@@ -14,10 +14,10 @@ public class StudentGradeEvaluation {
 
         // Prompt the user to enter their age
         System.out.print("Enter your age: ");
-        age=scanner.nextIntInt();
+        age=scanner.nextInt();
         // Prompt the user to enter their exam score
         System.out.print("Enter your score: ");
-        score=scanner.nextIntInt();
+        score=scanner.nextInt();
         // Determine the grade
         String grade;
         if(score>=90){
